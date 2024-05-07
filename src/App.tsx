@@ -1,13 +1,6 @@
-import Message from "./message";
-
+import ListGroup from "./components/ListGroup";
 function App() {
-  //jsx javascript xml
-  const name = "World";
-  if (name === "World") {
-    return <Message />
-  } else {
-    return <h1> Hello {name} </h1>
-  }
+    return <div> <ListGroup /></div> ;
 }
 
 export default App;
